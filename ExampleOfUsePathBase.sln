@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleOfUsePathBase.Server", "ExampleOfUsePathBase\Server\ExampleOfUsePathBase.Server.csproj", "{67600E5E-72F0-4CEE-9D5B-5D116378F6DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleOfUsePathBase.Server", "ExampleOfUsePathBase\Server\ExampleOfUsePathBase.Server.csproj", "{67600E5E-72F0-4CEE-9D5B-5D116378F6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleOfUsePathBase.Client", "ExampleOfUsePathBase\Client\ExampleOfUsePathBase.Client.csproj", "{43586705-0371-43BB-A515-539F68DDCB1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleOfUsePathBase.Client", "ExampleOfUsePathBase\Client\ExampleOfUsePathBase.Client.csproj", "{43586705-0371-43BB-A515-539F68DDCB1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleOfUsePathBase.Shared", "ExampleOfUsePathBase\Shared\ExampleOfUsePathBase.Shared.csproj", "{4AB4E148-47C7-4A63-A074-F9503A51B2BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleOfUsePathBase.Shared", "ExampleOfUsePathBase\Shared\ExampleOfUsePathBase.Shared.csproj", "{4AB4E148-47C7-4A63-A074-F9503A51B2BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
