@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace ExampleOfUsePathBase.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")]               // this route fails in development but works when deployed to production IIS.
+    // [Route("SomePath/[controller]")]   // Changing the route like this works around the issue in development, but fails when deployed to production IIS.
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
